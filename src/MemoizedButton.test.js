@@ -1,13 +1,13 @@
 import React from 'react';
-import Button from './Button';
+import MemoizedButton from './MemoizedButton';
 import { mount } from 'enzyme';
 
 const MOCK_CLASS = 'mockClass';
 const MOCK_CONTENT = 'mockContent';
 
-describe('<Button> ', () => {
+describe('React.memo(<Button>) ', () => {
     const wrapper = mount(
-        <Button className={MOCK_CLASS}>{MOCK_CONTENT}</Button>
+        <MemoizedButton className={MOCK_CLASS}>{MOCK_CONTENT}</MemoizedButton>
     );
 
     it('applies className passed in as prop', async () => {

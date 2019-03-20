@@ -1,5 +1,5 @@
 {
-  "name": "enzyme-hooks-bug-repro-cra",
+  "name": "enzyme-memo-bug-repro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
